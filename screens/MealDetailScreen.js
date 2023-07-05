@@ -60,8 +60,6 @@ function MealDetailScreen({ route, navigation }) {
   );
 }
 
-export default MealDetailScreen;
-
 const styles = StyleSheet.create({
   rootContainer: {
     marginBottom: 32,
@@ -87,3 +85,5 @@ const styles = StyleSheet.create({
     width: "80%",
   },
 });
+
+export default MealDetailScreen;

@@ -8,8 +8,6 @@ function Subtitle({ children }) {
   );
 }
 
-export default Subtitle;
-
 const styles = StyleSheet.create({
   subtitle: {
     color: "#e2b497",
@@ -25,3 +23,5 @@ const styles = StyleSheet.create({
     borderBottomWidth: 2,
   },
 });
+
+export default Subtitle;

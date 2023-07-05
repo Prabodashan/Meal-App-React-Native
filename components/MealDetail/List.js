@@ -8,7 +8,6 @@ function List({ data }) {
   ));
 }
 
-export default List;
 
 const styles = StyleSheet.create({
   listItem: {
@@ -24,3 +23,5 @@ const styles = StyleSheet.create({
     textAlign: "center",
   },
 });
+
+export default List;
